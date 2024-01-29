@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 1: Getting Started with PHP - Attila</title>
-</head>
-<body>
-    
+<?php include 'uni_header.php'; ?> 
 <h3>3.1 Write PHP code to output the following message:</h3>
     <?php
         echo "Hello world! My name is \"David\"";
@@ -45,7 +37,6 @@
 </table>
 <h3>3.4 Take a screenshot that confirms your development environment setup 
     and include it as an image in the "ex1.php" file.</h3>  
-    <img src="images\1.Assignment_task3.4.png" alt="task3.4">
+    <img src="images\1.Assignment_task3.4.png" alt="task3.4" class='center' width='95%'>
 
-</body>
-</html>
+    <?php include 'uni_footer.php'; ?>
