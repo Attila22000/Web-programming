@@ -1,7 +1,14 @@
 <hr> <!--Line Break-->
 <div class="row" id="footer">
         <div class="col-sm-4">
-            <h4 class="footer-heading" id="footer-center">Bon appetit!</h4>
+        <?php
+$file_path = $_SERVER['SCRIPT_FILENAME'];
+$filename = basename($file_path);
+$last_modified_time = filemtime($file_path);
+
+echo "<p>File: $filename</p>";
+echo "<p>Last modified: " . date("F d Y H:i:s.", $last_modified_time) . "</p>";
+?>
         </div>
         <div class="col-sm-4">
             <div id="footer-helper">

@@ -15,7 +15,7 @@
 <div class="container-fluid">
     <div class="row" id="header"> <!--Header-->
         <div class="col-sm-4" id="logodiv"><!---Logo-->
-            <a href="index.html"><img src="images/headerFooter/flag-of-italy.png" alt="Logo" class="center"
+            <a href="ex1.php"><img src="images/headerFooter/flag-of-italy.png" alt="Logo" class="center"
                                       id="header-logo"></a>
         </div>
         <div class="col-sm-8">
@@ -38,7 +38,7 @@
                             <div class="navbar-nav">
                                 <a class="nav-link" href="ex1.php">Exercise_1</a>
                                 <a class="nav-link" href="ex2.php">Exercise_2</a>
-                                <a class="nav-link" href="#">Exercise_3</a>
+                                <a class="nav-link" href="ex3.php">Exercise_3</a>
                                 <a class="nav-link" href="#">Exercise_4</a>
                                 <a class="nav-link" href="#">Exercise_5</a>
                             </div>
