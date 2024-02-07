@@ -1,5 +1,6 @@
 
-<?php 
+<?php
+include 'uni_header.php'; 
 if (isset($_POST['submit'])) {
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
@@ -10,7 +11,7 @@ include 'db.php';
 
 //write sql statement to insert data
 
-$sql = "insert into studentinfo(frisrt_name, last_name, city, groupId)
+$sql = "insert into studentsinfo(first_name, last_name, city, groupId)
         values ('$fname', '$lname', '$city', '$groupId')";
 
 if ($conn->query($sql)===TRUE)  {
@@ -24,5 +25,5 @@ $conn->close();
 }
 
 
-
+include 'uni_footer.php';
 ?>

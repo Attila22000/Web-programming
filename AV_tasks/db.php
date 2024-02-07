@@ -1,6 +1,6 @@
 <?php
 
-$servername = "databasedonotdelete_db_1";
+$servername = "localhost";
 $username   = "attila22000";
 $password   = "kWPHW3QA";
 $dbname     = "wp_attila22000";
