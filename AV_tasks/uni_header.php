@@ -40,7 +40,7 @@
                                 <a class="nav-link" href="ex2.php">Exercise_2</a>
                                 <a class="nav-link" href="ex3.php">Exercise_3</a>
                                 <a class="nav-link" href="ex4.php">Exercise_4</a>
-                                <a class="nav-link" href="#">Exercise_5</a>
+                                <a class="nav-link" href="crudexercise.php">CRUD</a>
                             </div>
                         </div>
                     </div>
